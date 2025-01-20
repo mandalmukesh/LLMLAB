@@ -1,0 +1,19 @@
+import pandas as pd
+
+# Create a dataset
+sentences = [
+    ("I love this product!", "positive"),
+    ("This is the worst experience I've ever had.", "negative"),
+    ("It is okay, not great but not bad either.", "neutral"),
+    ("Fantastic work!", "positive"),
+    ("I hate this.", "negative"),
+    ("Very impressive and inspiring.", "positive"),
+    ("I'm not satisfied with this service.", "negative"),
+    ("This is decent, could be better.", "neutral"),
+    ("Absolutely wonderful!", "positive"),
+    ("This is terrible.", "negative")
+]
+
+# Print the dataset
+for sentence, sentiment in sentences:
+    print(f"Sentence: {sentence} - Sentiment: {sentiment}")
